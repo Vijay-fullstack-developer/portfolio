@@ -1,0 +1,72 @@
+
+
+
+body {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+
+/* Main container for the home page */
+.home-page {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Hero Image styling */
+.hero-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+/* User data in the center of the screen */
+.user-data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.user-data-id {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.second-name {
+  color: rgba(56, 143, 230, 0.8);
+}
+
+.user-role-data {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .user-data-id {
+    font-size: 2.5rem;
+  }
+
+  .user-role-data {
+    font-size: 1.5rem;
+  }
+
+  .hero-image img {
+    object-fit: cover;
+  }
+}

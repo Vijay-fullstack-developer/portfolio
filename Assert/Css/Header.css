@@ -1,0 +1,156 @@
+.master-head {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  width: 72%;
+  align-items: center;
+}
+
+
+.fa-solid {
+  color: rgb(88, 85, 85);
+  margin-right: 8px;
+  padding: 0px;
+}
+
+.text-color {
+  color: rgb(88, 85, 85);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.list-item.text-color:hover {
+  color: white;
+}
+
+.list-item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.list-item li {
+  margin-right: 20px;
+  padding: 5px;
+  border-top: 1px solid #251f1f;
+  border-left: 1px solid #251f1f;
+  border-right: 1px solid #251f1f;
+  background-color: #2d2e2f;
+
+}
+
+
+
+
+.list-item li:hover {
+  background-color: #353a40;
+}
+
+.list-item li:hover .text-color,
+.list-item li:hover .text-color i {
+  color: white;
+  /* Change text and icon to white on hover */
+}
+
+.header-one {
+  width: 100%;
+}
+
+.photo {
+  position: relative;
+  width: 12%;
+  text-align: center;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.user-name {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  font-size: 20px;
+  background-color: rgba(56, 143, 230, 0.8);
+  width: 100%;
+  text-align: center;
+  padding: 4px 0;
+}
+
+
+.headers {
+  width: 100%;
+  background-color: black;
+
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container .fa-brands {
+  color: rgb(88, 85, 85);
+  padding: 5px;
+  font-size: 20px;
+}
+
+.container .fa-brands:hover {
+  color: white;
+}
+
+.content-data {
+  text-align: left;
+}
+
+.content {
+  color: rgb(88, 85, 85);
+  font-size: 12px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.share-it {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .headers {
+    width: 100%;
+    position: static;
+  }
+
+  .list-item li {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+  }
+}
+
+.portfolio-head {
+  color: #585b5e;
+  display: flex;
+  justify-content: left;
+  width: 22%;
+  align-items: center;
+
+
+}
+
+.portfolio-head h1 {
+  margin: 10px;
+}
+
+.container-layout {
+  display: flex;
+  justify-content: center;
+}
